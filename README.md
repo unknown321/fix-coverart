@@ -3,7 +3,6 @@ fix-coverart
 
 Fixes missing coverart on following models:
 
-  - Walkman One
   - NW-A50
     - A50Z mod
   - NW-A40
@@ -13,6 +12,8 @@ Fixes missing coverart on following models:
   - NW-WM1A
   - NW-WM1Z
   - DMP-Z1
+
+Fix is already included in Walkman One.
 
 ## Install
 
