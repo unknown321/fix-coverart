@@ -1,0 +1,3 @@
+[submodule "nw-installer"]
+	path = nw-installer
+	url = https://github.com/unknown321/nw-installer/
