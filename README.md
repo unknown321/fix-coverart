@@ -49,9 +49,28 @@ make release
 # or something like that
 ```
 
+## Why is that even a problem?
+
+Qt changelog found in [Qt-5.3.2.tar.gz](https://prodgpl.blob.core.windows.net/download/Audio/NW-A57/Qt-5.3.2.tar.gz):
+
+```
+2016-08-17 Disable the decoding of progressive JPEG and interlaced PNG.
+2016-08-24 Update bundled libpng
+2017-07-04 Update bundled libpng, libjpeg
+2018-05-31 Fix multiple Vulnerabilities in Qt Image Format Handling
+           CVE-2015-1858, CVE-2015-1859, CVE-2015-1860
+```
+
+There are no details on that decision, so it is assumed that there was either a vulnerability or performance impact.
+Maybe it was fixed in following updates, but Sony forgot to remove those rules?
+
 ## Other projects for these DAPs
 
 [Wampy](https://github.com/unknown321/wampy) - interface addon with various skins and other enhancing functions
 
 [Scrobbler](https://github.com/unknown321/scrobbler) - keeps tracks of played songs in .scrobbler.log for further
 submission to Last.fm.
+
+## Support me
+
+https://boosty.to/unknown321/donate
